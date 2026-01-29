@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:bullseye
+FROM docker.io/library/debian:bookworm
 
 RUN apt update && apt install -y qemu-user-static binfmt-support
 
